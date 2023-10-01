@@ -1,12 +1,12 @@
 import React from "react";
 
-const Films = ({ data }) => {
+const Films = ({ film }) => {
   return (
     <div className="film">
-      <span className="name">{data.Title}</span>
-      <img src={data.Poster} alt="sekil" />
-      <span>Released: {data.Released}</span>
-      <span className="plot">{data.Plot}</span>
+      <span className="name">{film.name}</span>
+      <img src={film.image} alt="sekil" />
+      <span>Released: {film.released}</span>
+      <span className="plot">{film.plot}</span>
       <button>Get Ticket</button>
     </div>
   );

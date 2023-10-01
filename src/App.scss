@@ -44,6 +44,10 @@ $text-color: chocolate;
     width: 50px;
   }
 }
+.films {
+  display: flex;
+  flex-wrap: wrap;justify-content: center;
+}
 .film {
   .name {
     width: 250px;

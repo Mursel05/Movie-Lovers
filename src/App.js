@@ -4,7 +4,6 @@ import Contact from "./pages/contact";
 import Home from "./pages/home";
 import Now from "./pages/now";
 import Soon from "./pages/soon";
-import Table from "./pages/table";
 import NotFound from "./components/NotFound";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
@@ -19,8 +18,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/now" element={<Now />} />
           <Route path="/soon" element={<Soon />} />
-          <Route path="/table" element={<Table />} />
-          <Route path="*" element={<NotFound/>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
