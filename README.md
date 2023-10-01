@@ -1,6 +1,6 @@
 ## Movie Lovers
 
-Use this link to visit the page: https://movie-lovers-rho.vercel.app/
+Use this link to visit the website: https://movie-lovers-rho.vercel.app/
 
 The Movie Lovers is a user-friendly platform designed for movie enthusiasts to explore current movie listings, book tickets, and stay updated on the latest cinematic releases. The website also provides detailed information about cinemas, ensuring a seamless movie-going experience.
 
